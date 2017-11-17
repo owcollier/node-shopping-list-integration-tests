@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: yhbO2Mu3VrkCQ1NR+H7A5zDk89Pdzk+bmUsjQI6ri8Jzk4g5qmzJaIGK1QUXeapBoJD5JD3dk7T7dwI0SH9PwJd8HFdmb2HHvT4BgyjDEH4fZEcvxjKjljYTVxZjB4SFr4u2GvDSgPUeCjHDI07f8i/l82wlQ3dJwaRhshJ7P5b6ox0HAMn11Ek4CyL47y57US010+biP/ZVN7mJnQfxHKOjljp+KngdYZ1tIGG8og5PXBkIQiDuc7GI0hegiWP2A8bm7Wh2S3s0LjhBp03jy/7uJG/mg6X5ZbBC5Yj05tMrbjjSVH/xQ7WjMCGIEynI1B2BhpmfofXntTpGmKSeZSyKrsurI/JJWlpz8zVlkYFsyef/MaTIyoT3J+HzxoJPRkz1bWb6CFjAKxdeDogQaRtoYgP3JOAou8HljthDH1tLqlgnao3Rv+udQ5eWhQKm5z0Lmd6hkaOfzhwHmvCSfQNxoO7j8xEyt3EeUE1p9lSMawSN2KZcvnOYdNQdYX/mWnRpz4rATFwscc7VE3ghA/N1jIMGeit6iZWQtxkq87AQfoiB02vJJcPjRBxyemXwKMaB/GEHfwWJu4Qvf5/7mw+jbx9uwwBoDwuZFJfdUwCohdNXocIqOKuqBw46ZFdxJRn543uX/9eyZCZkuJSyRi9oZe2/A7DsMytCAr+UP5M=
+  app: hidden-sierra-98302
+  on:
+    repo: owcollier/node-shopping-list-integration-tests
